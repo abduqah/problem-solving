@@ -13,9 +13,7 @@ def solution(n):
           break
     if ok:
       return p
-    else:
-      return p - 1
 
-  return -1
+  return p - 1
 
 print(solution(955))
